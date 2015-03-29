@@ -1,0 +1,5 @@
+run uniq against this file
+goat
+goat
+horse
+goat
