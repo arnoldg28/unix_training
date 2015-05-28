@@ -1,8 +1,85 @@
-The quick brown fox jumps over the lazy dog
+Reference: http://www.cs.rit.edu/~cslab/vi.html
+================================================
 
-Editing the text
-----------------
-i -> insert before the character
-a -> insert after the character
-x -> delete character
-dd -> delete current line
+General Startup
+	vi [filename]
+	vi -R [filename] -> Read Only
+	:wq -> save and quit
+	:q! -> quit without change
+
+Cursor Movement
+	h	move left (backspace)
+	j	move down
+	k	move up
+	l	move right
+
+	[return]	move to the beginning of the next line
+
+	$	last column on the current line
+
+	0	move cursor to the first column on the current line
+
+	^	move cursor to the first nonblank column on the current line
+
+	w	move to the beginning of the next word or pucntuation mark
+
+	W	move past the next space
+
+	b	move to the beginning of the previous word or punctuation mark
+
+	B	move to the beginning of the previous word, ignores punctuation mark
+
+	e	end of next word or puctuation mark
+
+	E 	end of next word, ignoring punctuation
+
+	H	move cursor to the top of the screen
+
+	M	move cursor to the middle of the screen
+
+	L	move cursor to the bottom of the screen
+
+Screen Movement
+	G	move to the last line in the file
+
+	xG	move to line x
+
+	z+	move current line to the top of the screen
+
+	z	move current line to the middle of the screen
+
+	z-	move current line to the buttom of the screen
+
+	^F	move forward one screen
+
+	^B	move backward one screen
+
+	^D	move forward one half screen
+
+	^U	move backward one half screen
+
+	^R	redraw screen
+
+Inserting
+	r	replace character under cursor with next character typed
+
+	R	keep replacing character untin [esc] is hit
+
+	i	insert before the cursor
+
+	a	insert after the cursor
+
+	A	append at end of line
+
+	o	open line above cursor and enter append mode
+
+Deleting
+	x	delete chracter under cursor
+
+	dd	delete line under cursor
+
+	dw	delete word under cursor
+
+	db	delete word before cursor
+
+ 
