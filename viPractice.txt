@@ -1,0 +1,8 @@
+The quick brown fox jumps over the lazy dog
+
+Editing the text
+----------------
+i -> insert before the character
+a -> insert after the character
+x -> delete character
+dd -> delete current line
