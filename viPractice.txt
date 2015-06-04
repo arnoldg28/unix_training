@@ -61,6 +61,7 @@ Screen Movement
 	^R	redraw screen
 
 Inserting
+#THIS IS A TEST STRING
 	r	replace character under cursor with next character typed
 
 	R	keep replacing character untin [esc] is hit
@@ -82,4 +83,11 @@ Deleting
 
 	db	delete word before cursor
 
- 
+Copying Code
+	yy	(yank) 'copies' line which may then be put by p(put) command
+
+Put Command
+	P	bring back before cursor
+	p	bring back after cursor
+
+
