@@ -90,4 +90,18 @@ Put Command
 	P	bring back before cursor
 	p	bring back after cursor
 
+Find Command
+	?	finds a word going backwards
+	/	finds a word going forward
+	f	finds a char on the line under the cursor going forward
+	F	finds a char on the line under the cursor going backwards
+	t	find a char on the current line goind forward and stop 1 char before it
+	T	find a char on the current line going backward and stop one char before it
+	;	repeat last f, F, t, T
+
+Miscellaneous Commands
+	.	repeat last command
+	u	undo last command issued
+	U	undo all commands on the line
+	xp	swap characters
 
