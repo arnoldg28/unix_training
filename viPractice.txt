@@ -92,7 +92,7 @@ Put Command
 
 Find Command
 	?	finds a word going backwards
-	/	finds a word going forward
+	/	finds a word going forward (press 'n' to find next)
 	f	finds a char on the line under the cursor going forward
 	F	finds a char on the line under the cursor going backwards
 	t	find a char on the current line goind forward and stop 1 char before it
@@ -104,4 +104,10 @@ Miscellaneous Commands
 	u	undo last command issued
 	U	undo all commands on the line
 	xp	swap characters
-
+	J	joint current line with the next line
+	%	if at one parenthesis, will jump to its mate
+	mx	mark current line with character x
+	'x	find line marked with charecter x (like a marker so we can easily go back)
+		Note: Marks are internal and not written to the file
+The quick brown fox jumps over the lazy dog
+The quick bronw fox jumps over the lazy dog
